@@ -1,16 +1,45 @@
-# Asset Management application
+# Asset Management Flutter App
 
-A new Flutter project.
+This Flutter application serves as a comprehensive asset management solution for organizations, providing a seamless experience for both guest and registered users. The app includes features to report issues, request assets, and track asset-related tasks. Additionally, registered users can access advanced functionalities.
 
-## Getting Started
+## Key Features:
 
-This project is a starting point for a Flutter application.
+### Guest User:
+- Scan QR codes on assets to report issues.
+- Scan QR codes on assets to request the asset.
 
-A few resources to get you started if this is your first Flutter project:
+### Registered User:
+- Sign up to create an account.
+- Receive an email with OTP for verification.
+- Set up a password and request approval from an approver.
+- Upon approval, login with the provided credentials.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Technician Screen:
+- Access a dedicated screen for technicians.
+- View a list of all types of reported issues.
+- Manage jobs and associated tasks.
+- Utilize a timer for each task to track working hours.
+- Start and stop the timer as needed.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use:
+
+1. **Guest User:**
+   - Open the app and scan the QR code on an asset to report an issue or request the asset.
+
+2. **Registered User:**
+   - Sign up using the app.
+   - Verify your account through the OTP sent to your email.
+   - Set up a password and request approval.
+   - Login once approved by the assigned approver.
+
+3. **Technician:**
+   - Access the technician screen.
+   - View and manage reported issues.
+   - Manage jobs, tasks, and utilize the timer for tracking work hours.
+
+## Getting Started:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kunalThakur807/asset-management-app.git
+   cd asset-management-app
